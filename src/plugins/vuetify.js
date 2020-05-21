@@ -1,7 +1,11 @@
-import Vue from 'vue';
-import Vuetify from 'vuetify/lib';
+// You still need to register Vuetify itself
+// src/plugins/vuetify.js
 
-Vue.use(Vuetify);
+import Vue from 'vue'
+import Vuetify from 'vuetify/lib'
 
-export default new Vuetify({
-});
+Vue.use(Vuetify)
+
+const opts = {}
+
+export default new Vuetify(opts)
