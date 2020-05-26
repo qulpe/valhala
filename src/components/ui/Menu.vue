@@ -1,5 +1,5 @@
 <template>
-    <div id="new">
+    <div id="Settings">
           <ul>
       <router-link to="/About"><li>About</li></router-link>
       <router-link to="/Appointments"><li>Appointments</li></router-link>
@@ -20,7 +20,7 @@
 <style lang="scss" scoped>
 
 
-#new{
+#Settings{
     background-color: blue;
 }
 

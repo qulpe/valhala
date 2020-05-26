@@ -1,17 +1,15 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
-import About from '../views/About.vue'
-import Appointments from '../views/Appointments.vue'
-import Buddy from '../views/Buddy.vue'
-import Doctors from '../views/Doctors.vue'
-import Forums from '../views/Forums.vue'
-import Health from '../views/Health-status.vue'
-import Login from '../views/Log-in.vue'
-import Menu from '../views/Menu.vue'
-import Presentation from '../views/Presentation.vue'
-import Profile from '../views/Profile.vue'
-import Settings from '../views/Settings.vue'
+
+import Home from '../views/client/Home.vue'
+import About from '../views/client/About.vue'
+import Appointments from '../views/client/Appointments.vue'
+import Doctors from '../views/client/Doctors.vue'
+import Forums from '../views/client/Forums.vue'
+import Health from '../views/client/Health-status.vue'
+import Login from '../views/client/Log-in.vue'
+import Profile from '../views/client/Profile.vue'
+import Signup from '../views/client/Signup.vue'
 
 Vue.use(VueRouter)
 
@@ -30,11 +28,6 @@ Vue.use(VueRouter)
     path: '/Appointments',
     name: 'Appointmets',
     component: Appointments
-  },
-  {
-    path: '/Buddy',
-    name: 'Buddy',
-    component: Buddy
   },
   {
     path: '/Doctors',
@@ -57,11 +50,6 @@ Vue.use(VueRouter)
     component: Login
   },
   {
-    path: '/Menu',
-    name: 'Menu',
-    component: Menu
-  },
-  {
     path: '/getting-started',
     name: 'Presentation',
     component: Presentation
@@ -72,9 +60,9 @@ Vue.use(VueRouter)
     component: Profile
   },
   {
-    path: '/Settings',
-    name: 'Settings',
-    component: Settings
+    path: '/Signup',
+    name: 'Signup',
+    component: Signup
   }
 ]
 
