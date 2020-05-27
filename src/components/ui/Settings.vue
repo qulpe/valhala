@@ -4,7 +4,7 @@
             Settings
         </h2>
         <h3>
-            We have settings 
+           <router-link to = "/Doctors"> We have settings </router-link> 
         </h3>
     </div>
 </template>

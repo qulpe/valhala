@@ -47,7 +47,7 @@ export default {
   font-size: 5vh;
 }
 
-.button{
+.button {
   width: 75%;
   height: 7vh;
   border: 2px solid #292929;
@@ -56,6 +56,7 @@ export default {
   margin: 3vh 0 0 calc(6.5vh + 2px);
   padding: 9px 0 0 0;
 }
+
 a{
   text-decoration: none !important;
 }

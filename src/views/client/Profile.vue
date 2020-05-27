@@ -1,16 +1,19 @@
 <template>
-     <v-container>
+     <v-container class="pa-0">
         <section id="profile">
         <div id="cover"></div>
         <div id="p-profile">
             <h1>Profile</h1>
         </div>
         <div id="p-content"></div>
-        </section>
+        
         <Settings />
-        <v-btn>
+        <butto class="button">
             Settings 
-        </v-btn>
+        </butto>
+      
+    <img src="../../assets/animations/image00001.png" alt="" id="id">
+        </section>
     </v-container>
 </template>
 
@@ -25,12 +28,15 @@ import Settings from '@/components/ui/Settings.vue';
 </script>
 
 <style lang="scss" scoped>
-*{
-    margin: 0;
-}
+
 #profile{
     width: 100%;
     height: 900px;
+    background-color: blue;
+}
+#id{
+    width: 100%;
+    height: 30vh;
 }
 #cover{
     height: 30%;
