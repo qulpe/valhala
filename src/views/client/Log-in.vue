@@ -5,7 +5,7 @@
             <form action="">    
                 <input type="text" id="fname" name="lname" value="example@email.com">
                 <input type="password" id="lname" name="pwd" value="Password">
-                <router-link to="/Profile"><input type="submit" value="LOGIN" id="submit"></router-link>
+                <router-link to="/Menu"><input type="submit" value="LOGIN" id="submit"></router-link>
             </form> 
         </section>
     </v-app>
