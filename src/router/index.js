@@ -4,12 +4,11 @@ import VueRouter from 'vue-router'
 import Home from '../views/client/Home.vue'
 import About from '../views/client/About.vue'
 import Appointments from '../views/client/Appointments.vue'
-import Doctors from '../views/client/swiper.vue'
+import Doctors from '../views/client/Doctors.vue'
 import Forums from '../views/client/Forums.vue'
 import Health from '../views/client/Health-status.vue'
 import Login from '../views/client/Log-in.vue'
 import Profile from '../views/client/Profile.vue'
-import Signup from '../views/client/Signup.vue'
 
 Vue.use(VueRouter)
 
@@ -58,11 +57,6 @@ Vue.use(VueRouter)
     path: '/Profile',
     name: 'Profile',
     component: Profile
-  },
-  {
-    path: '/Signup',
-    name: 'Signup',
-    component: Signup
   }
 ]
 

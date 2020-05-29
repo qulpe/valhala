@@ -1,0 +1,11 @@
+@mixin menu-button{
+    opacity: 0.8;
+    border-radius: 25px;
+    border: 1px solid #220B7030;
+    height: 9vh;
+    width: 85%;
+    text-align: center;
+    color: #220B70;
+    font-size: 30px;
+    box-shadow: 0 5px 10px 0 #220B7050;
+}

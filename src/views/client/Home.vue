@@ -9,8 +9,7 @@
       you to others across the globe!
     </p>
     </div>
-    <router-link to="/Signup"><div class="button">Sign Up</div></router-link>
-    <router-link to="/Login"><div class="button">Login</div></router-link>
+    <router-link to="/Login"><div class="button">LOGIN</div></router-link>
   </section>
 </template>
 
@@ -48,13 +47,10 @@ export default {
 }
 
 .button {
-  width: 75%;
-  height: 7vh;
-  border: 2px solid #292929;
-  border-radius: 35px;
-  text-align: center;
-  margin: 3vh 0 0 calc(6.5vh + 2px);
-  padding: 9px 0 0 0;
+  @include menu-button;
+   margin: 3vh 0 0 4.5vh;
+   padding: 7px 0 0 0;
+
 }
 
 a{
